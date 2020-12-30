@@ -92,10 +92,13 @@ h1 .kerning-fix {
   padding-bottom: 70px;
   position: absolute;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+ }
 
-.splash section {
-  margin: 80px auto 0; }
+.splash section { width:100%; }
 
 .bio {
   margin: 20px auto 30px;
